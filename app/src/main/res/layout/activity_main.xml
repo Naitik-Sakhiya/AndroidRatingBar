@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px"
+    android:layout_margin="10px"
+    tools:context="com.naitiks.androidratingbar.MainActivity">
+
+    <android.support.v7.widget.AppCompatRatingBar
+        android:id="@+id/rating_bar"
+        android:max="5"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_rating"
+        android:layout_below="@+id/rating_bar"
+        android:text="Get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
